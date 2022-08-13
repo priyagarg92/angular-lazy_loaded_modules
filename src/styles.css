@@ -1,0 +1,81 @@
+/* Add application styles & imports to this file! */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*,
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 40px 25px 0;
+  min-height: 65vh;
+}
+
+h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.admin-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.admin-links li {
+  background-color: #6102a5;
+  padding: 10px;
+}
+
+.admin-links li:nth-child(2) {
+  margin: 0 10px;
+}
+
+.admin-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-content {
+  background-color: #e8c2ff;
+  box-shadow: 0 0 10px #e1e1e1;
+  width: calc(100% - 100px);
+  margin: 50px auto;
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+.get-repos {
+  display: block;
+  margin: 20px auto;
+  background-color: #5c017d;
+  padding: 8px 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+input.form-control {
+  padding: 6px 10px;
+  font-size: 16px;
+}
+
+.copyright {
+  text-align: center;
+  border-top: 1px solid #e1e1e1;
+  padding: 20px 0;
+}
